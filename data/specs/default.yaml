@@ -1,0 +1,4 @@
+name: "default"
+output_format: markdown
+gates:
+  - no_hallucination_check: false

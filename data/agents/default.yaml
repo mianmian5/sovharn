@@ -1,0 +1,10 @@
+name: "default-agent"
+role: "通用助手"
+model: deepseek-chat
+system_prompt: "你是一个有用的AI助手。"
+skills: []
+specs: []
+memory:
+  session: true
+  daily: true
+  permanent: true

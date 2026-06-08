@@ -1,0 +1,6 @@
+name: "web-search"
+description: "搜索互联网获取信息"
+tools:
+  - type: builtin
+    name: search_web
+entry: "search_web(query: str) -> str"

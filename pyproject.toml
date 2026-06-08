@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "sovharn"
+version = "0.1.0"
+description = "SovHarn - Open-Source Agent Harness Platform"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "fastapi>=0.115.0", "uvicorn[standard]>=0.30.0",
+    "pyyaml>=6.0", "httpx>=0.27.0", "pydantic>=2.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/sovharn/sovharn"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sovharn*"]
+
+[project.scripts]
+sovharn = "sovharn:main"
