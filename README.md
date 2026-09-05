@@ -17,9 +17,15 @@ python3 run.py
 ## 安装
 
 ```bash
-pip install sovharn
+# 方式一：本地开发运行（推荐）
+python3 run.py
+
+# 方式二：从源码安装
+pip install -e .
 sovharn
 ```
+
+> 💡 `sovharn` 尚未发布到 PyPI，请通过源码方式安装。
 
 ## 功能
 
